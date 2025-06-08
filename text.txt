@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dwight M. Rose | Actor</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+  <header class="hero" style="background-image: url('https://images.unsplash.com/photo-1605125282350-efb1e42d636f?fit=crop&w=1600&q=80');">
+    <div class="hero-overlay">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero-content">
+        <h1>Dwight M. Rose</h1>
+        <p class="tagline">Actor. Storyteller. Creative Force.</p>
+        <div class="hero-buttons">
+          <a href="#portfolio" class="btn primary">Watch My Reel</a>
+          <a href="#contact" class="btn">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about-preview section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Dwight M. Rose is a Jamaican-born actor, creator, and visionary known for his emotionally charged performances and dynamic storytelling. From humble beginnings to captivating audiences on screen and stage, Dwight brings truth and vulnerability to every role — drawing from a life filled with resilience, grit, and artistic passion.
+        </p>
+        <a href="#contact" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-preview section">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="media-links">
+          <div class="media-item">
+            <h3>Acting Reel</h3>
+            <div class="video-wrapper">
+              <iframe src="https://www.youtube.com/embed/REPLACE_WITH_REEL" title="Dwight M. Rose Reel" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="media-item">
+            <h3>Featured Music</h3>
+            <div class="audio-wrapper">
+              <iframe src="https://open.spotify.com/embed/artist/REPLACE_WITH_ARTIST_ID" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-preview section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          Interested in collaborating, booking, or featuring Dwight in your next film or creative project? Let's connect.
+        </p>
+        <a href="mailto:dwightmrose@email.com" class="btn primary">Contact Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content container">
+      <div class="social-icons">
+        <a href="https://instagram.com/dwightmrose" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/dwightmrose" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/dwightmrose" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@dwightmrose" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://linktr.ee/dwightmrose" aria-label="Linktree"><i class="fas fa-link"></i></a>
+      </div>
+      <p>&copy; 2025 Dwight M. Rose. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
